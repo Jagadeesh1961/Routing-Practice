@@ -1,0 +1,31 @@
+.about-logo-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+.about-logo {
+  width: 150px;
+}
+
+@media screen and (min-width: 768px) {
+  .about-logo {
+    width: 200px;
+  }
+}
+
+.about-heading {
+  color: #6d396b;
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.description {
+  color: #555555;
+  font-weight: 500;
+  font-size: 18px;
+  font-family: 'Roboto';
+}

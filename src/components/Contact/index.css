@@ -1,0 +1,24 @@
+.contact-logo-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+.contact-logo {
+  width: 150px;
+}
+
+@media screen and (min-width: 768px) {
+  .contact-logo {
+    width: 250px;
+  }
+}
+
+.contact-heading {
+  color: #6d396b;
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: 500;
+}
